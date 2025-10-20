@@ -16,7 +16,7 @@ while True:
 
 if triangle[0] == triangle[1] == triangle[2]:
     print("Equilateral Triangle")
-elif triangle[0] == triangle[1] or triangle[1] == triangle[2] or triangle[2] == triangle[0]:
-    print("Isosceles Triangle")
-else:
+elif triangle[0] != triangle [1] != triangle[2]:
     print("Scalene Triangle")
+else:
+    print("Isoceles Triangle")
